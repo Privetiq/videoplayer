@@ -1,0 +1,28 @@
+.taxonomy-voting .form-table tr th:first-child {
+    width: 50px;
+}
+
+th.field_key-field_5463b33cd9123123,
+th.field_key-field_5463b33cd91231231 {
+    width: 5%;
+}
+
+th.field_key-field_5463b320d9d36,
+th.field_key-field_5463b320d9d36_22
+{
+    width: 12%;
+}
+
+th.field_key-field_5463b33cd9d37,
+th.field_key-field_5463b33cd9d37_11,
+th.field_key-field_5463b33cd9d37_22,
+th.field_key-field_5463b33cd9d37_221
+{
+    width: 20%;
+}
+
+th.field_key-field_5463b353d9d38,
+th.field_key-field_5463b353d9d38,
+th.field_key-field_5463b353d9d38_22{
+    width: 30%;
+}

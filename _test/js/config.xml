@@ -1,0 +1,41 @@
+<config>
+  <flvserver id="1" url="http://vid1.tsn.ua" type="progressive" primary=""/>
+  <flvserver id="2" url="http://vid2.tsn.ua" type="progressive" primary=""/>
+  <flvserver id="3" url="http://vid3.tsn.ua" type="progressive" primary=""/>
+  <flvserver id="4" url="http://vid4.tsn.ua" type="progressive" primary=""/>
+  <flvserver id="5" url="http://vid5.tsn.ua" type="progressive" primary=""/>
+  <flvserver id="6" url="http://vid6.tsn.ua" type="progressive" primary=""/>
+  <flvserver id="live1" balancer="http://91.206.48.80:1935/loadbalancer" stream_name="streamlive" type="live" primary="" />
+  <statistics url="http://tsn.ua/svc/video/stat/"/>
+  <imageserver url="http://image.tsn.ua"/>
+  <ratings url="http://tsn.ua/svc/video/ratings/"/>
+  <servescript url="http://tsn.ua/svc/video/serve/"/>
+  <additionalscript url="http://tsn.ua/svc/video/playlist/?type=ADDITIONAL"/>
+  <playlistscript url="http://tsn.ua/svc/video/playlist/?type=BIG"/>
+  <interfaces rating="off" additional="on" mainplaylist="off" quality="off" share="off" fullscreen="on" mail="off" link="on" embed="off" additionalatend="off"/>
+  <system language="ua" quality="hd" watermark="" watermarklink="" gemius="ofibIDebrMmXf7rRUCnK8JaFrheFNMNKsCBHfzqUfPP.j7" skin="1plus1" recommended="" preview="image"/>
+  <mailscript url="http://tsn.ua/svc/video/share/?type=send"/>
+  <embedscript url="http://www.1plus1.ua/svc/video/share/?type=embed"/>
+  <linkscript url="http://tsn.ua/svc/video/share/?type=link"/>
+  <urlscript url="http://www.1plus1.ua/svc/video/share/?type=url"/>
+  <infoscript url="http://tsn.ua/svc/video/info/"/>
+  <imagesize small="80x60" medium="176x132" big="585xX"/>
+  <adriver sid="126719"></adriver>
+  <social>
+    <item type="vk" status="on">
+      <![CDATA[http://vk.com/share.php?url=]]>
+    </item>
+    <item type="fb" status="on">
+      <![CDATA[https://www.facebook.com/sharer/sharer.php?u=]]>
+    </item>
+    <item type="ok" status="on">
+      <![CDATA[http://www.odnoklassniki.ru/dk?st.cmd=addShare&st._surl=]]>
+    </item>
+    <item type="tw" status="on">
+      <![CDATA[https://twitter.com/intent/tweet?url=]]>
+    </item>
+    <item type="em" status="on">
+      <![CDATA[mailto:?body=]]>
+    </item>
+  </social>
+</config>
