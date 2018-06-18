@@ -4,7 +4,7 @@
 // ** ������������ MySQL **  //Added by WP-Cache Manager
  //Added by WP-Cache Manager
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/var/www/clients/client3/web43/web/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', 'W:/domains/localhost/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'c3_pravonavladu');    // ����� ���� ��
 define('DB_USER', 'root');     // Your MySQL ��� �����������
 define('DB_PASSWORD', ''); // ��� ������
