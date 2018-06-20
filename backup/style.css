@@ -261,9 +261,9 @@ input[type=range]#volume_custom_roller::-ms-track {
 /* Специальные правила для браузеров на движках WebKit/Blink */
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
-    height: 20px;
+    height: 10px;
     width: 10px;
-    border-radius: 3px;
+    border-radius: 50%;
     background: #ffffff;
     cursor: pointer;
     margin-top: -10px; /* Вам нужно указать значение для поля в Chrome, но в Firefox и IE это происходит автоматически */
@@ -271,18 +271,18 @@ input[type=range]::-webkit-slider-thumb {
 
 /* Тоже самое для Firefox */
 input[type=range]::-moz-range-thumb {
-    height: 20px;
+    height: 10px;
     width: 10px;
-    border-radius: 3px;
+    border-radius: 50%;
     background: #ffffff;
     cursor: pointer;
 }
 
 /* Тоже самое для IE */
 input[type=range]::-ms-thumb {
-    height: 20px;
+    height: 10px;
     width: 10px;
-    border-radius: 3px;
+    border-radius: 50%;
     background: #ffffff;
     cursor: pointer;
 }

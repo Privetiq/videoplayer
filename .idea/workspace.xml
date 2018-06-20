@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c43f2f9f-616e-49c3-81e3-74598e6a8e42" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/backup/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backup/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/backup/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +19,8 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backup/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="32" column="47" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="47" />
+                <state relative-caret-position="238">
+                  <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -43,8 +44,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backup/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="274" column="13" selection-start-line="274" selection-start-column="13" selection-end-line="274" selection-end-column="13" />
+                <state relative-caret-position="17">
+                  <caret line="233" column="22" lean-forward="true" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -159,12 +160,12 @@
       <workItem from="1529325780611" duration="5074000" />
       <workItem from="1529388986226" duration="5436000" />
       <workItem from="1529398277424" duration="17675000" />
-      <workItem from="1529486051824" duration="14874000" />
+      <workItem from="1529486051824" duration="15574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43059000" />
+    <option name="totallyTimeSpent" value="43759000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -179,7 +180,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.087458745" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34653464" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,8 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="47" />
+        <state relative-caret-position="238">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -291,8 +292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="274" column="13" selection-start-line="274" selection-start-column="13" selection-end-line="274" selection-end-column="13" />
+        <state relative-caret-position="17">
+          <caret line="233" column="22" lean-forward="true" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="22" />
         </state>
       </provider>
     </entry>

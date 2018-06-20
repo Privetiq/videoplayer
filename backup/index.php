@@ -30,7 +30,7 @@ $arResult = array('STATUS' => array('MP4' => '3.mp4'));
                     </span>
                 </span>
                 <span id="volume_high" class="volume_dynamic"></span>
-                <input id="volume_custom_roller" type="range" min="0" max="10" value="5" step="0.1" >
+                <input id="volume_custom_roller" type="range" min="0" max="100" value="80" step="1" >
                 <span id="volume_roller"></span>
                 <span id="time">
                     <span id="currenttime">00:00</span> /
