@@ -1,6 +1,8 @@
 @color_1: #fff; /*основной цвет*/
 @color_2: #999; /*Дополнительный цвет*/
 @sprite: url("ico.png"); /*Ссыль на спрайт*/
+@background_color_1: #ffffff; /*Цвет ползунка до*/
+@background_color_2: #a2a2a2; /*Цвет ползунка после*/
 
 .video-frame {
   position: relative;
@@ -214,41 +216,77 @@
     }
   }
 }
-input[type=range]#volume_custom_roller {
-  width: 100px;
-  height: 13px;
-  &:focus {
-    outline: none;
-    height: 13px;
+
+
+.video_volume {
+  -webkit-appearance: none;
+  width: 90px;
+  position: absolute;
+  left: 110px;
+  bottom: 15px;
+  margin: 0;
+  z-index: 2;
+  min-height: 10px;
+  outline: none;
+
+  /*Псевдо для WebKit*/
+  &::-webkit-progress-value {
+    color: @color_1;
   }
-  &::-ms-track {
-    width: 100%;
-    cursor: pointer;
-    background: transparent;
-    border-color: transparent;
-    color: transparent;
-  }
-  &::-ms-thumb {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background: #ffffff;
-    cursor: pointer;
+  &::-webkit-slider-runnable-track {
+    box-shadow: none;
+    border: none;
+    background: @color_2;
+    height: 3px;
+    -webkit-appearance: none;
   }
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
+    box-sizing: content-box;
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #ffffff;
+    background-color: @background_color_1;
     cursor: pointer;
-    margin-top: -1px;
+    margin-top: -3px;
   }
+  /*Псевдо для мозилы*/
   &::-moz-range-thumb {
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background: #ffffff;
+    background-color: @background_color_1;
     cursor: pointer;
+    margin-top: -14px;
+  }
+  &::-moz-range-track {
+    background-color: @background_color_2;
+    border-radius: 3px;
+  }
+  &::-moz-range-progress {
+    background-color: @background_color_1;
+  }
+  /*Псевдо для IE*/
+  &::-ms-thumb {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: @background_color_1;
+    cursor: pointer;
+    border: none !important;
+    margin-top: -14px;
+    display: inline-block;
+  }
+  &::-ms-track {
+    height: 3px;
+    color: transparent;
+    background-color: @background_color_2;
+    border-radius: 3px;
+  }
+  &::-ms-fill-lower {
+    background-color: @background_color_1;
+  }
+  &::-ms-tooltip {
+    display: none;
   }
 }

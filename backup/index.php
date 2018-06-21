@@ -46,8 +46,7 @@ $arResult = array('STATUS' => array('MP4' => '3.mp4'));
                     </span>
                 </span>
                 <span id="volume_high" class="volume_dynamic"></span>
-
-                <span id="volume_roller"></span>
+                <input class="video_volume" name="volume" type="range" min="0" max="1" value="0.9" step="0.01"/>
                 <span id="time">
                     <span id="currenttime">00:00</span> /
                     <span id="duration">00:00</span>
