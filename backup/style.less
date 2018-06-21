@@ -233,6 +233,13 @@ input[type=range]#volume_custom_roller {
     border-color: @border_color_1;
     color: @color_3;
   }
+  &::-ms-thumb {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
   &::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 10px;
@@ -243,13 +250,6 @@ input[type=range]#volume_custom_roller {
     margin-top: -1px;
   }
   &::-moz-range-thumb {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background: #ffffff;
-    cursor: pointer;
-  }
-  &::-ms-thumb {
     height: 10px;
     width: 10px;
     border-radius: 50%;
