@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c43f2f9f-616e-49c3-81e3-74598e6a8e42" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/backup/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/backup/style.less" afterDir="false" />
     </list>
@@ -42,8 +41,8 @@
           <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backup/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
+                <state relative-caret-position="640">
+                  <caret line="290" column="3" selection-start-line="290" selection-start-column="3" selection-end-line="290" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -191,12 +190,12 @@
       <workItem from="1529388986226" duration="5436000" />
       <workItem from="1529398277424" duration="17675000" />
       <workItem from="1529486051824" duration="16294000" />
-      <workItem from="1529568210084" duration="21979000" />
+      <workItem from="1529568210084" duration="22577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66458000" />
+    <option name="totallyTimeSpent" value="67056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -407,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/backup/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
+        <state relative-caret-position="640">
+          <caret line="290" column="3" selection-start-line="290" selection-start-column="3" selection-end-line="290" selection-end-column="3" />
         </state>
       </provider>
     </entry>
