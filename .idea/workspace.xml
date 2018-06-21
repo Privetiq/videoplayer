@@ -3,34 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c43f2f9f-616e-49c3-81e3-74598e6a8e42" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backup/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/backup/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/backup/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backup/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/backup/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/._ghindaVideoPlayer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/._images" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/._index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/._jquery-1.4.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/._jquery-ui-1.8.2.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/._jquery.ghindaVideoPlayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/._sintel-trailer.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/._sintel-trailer.ogv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/images/._pause-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/images/._play-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/images/._volume-full-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/__MACOSX/images/._volume-mute-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/ghindaVideoPlayer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/images/pause-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/images/play-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/images/volume-full-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/images/volume-mute-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/jquery-1.4.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/jquery-ui-1.8.2.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/jquery.ghindaVideoPlayer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/sintel-trailer.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/sintel-trailer.ogv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,16 +17,16 @@
     <splitter split-orientation="horizontal" split-proportion="0.49387372">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backup/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+                <state relative-caret-position="150">
+                  <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/backup/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="235">
@@ -68,8 +42,8 @@
           <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backup/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="388">
-                  <caret line="234" column="3" lean-forward="true" selection-start-line="234" selection-start-column="3" selection-end-line="234" selection-end-column="3" />
+                <state relative-caret-position="198">
+                  <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -98,6 +72,7 @@
       <find>url(&quot;ico.png&quot;)</find>
       <find>calc</find>
       <find>@border_color_1</find>
+      <find>volume_custom_roller</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -216,12 +191,12 @@
       <workItem from="1529388986226" duration="5436000" />
       <workItem from="1529398277424" duration="17675000" />
       <workItem from="1529486051824" duration="16294000" />
-      <workItem from="1529568210084" duration="20413000" />
+      <workItem from="1529568210084" duration="21979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64892000" />
+    <option name="totallyTimeSpent" value="66458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
@@ -232,8 +207,8 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2689769" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.193769" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2689769" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.193769" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -416,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="52" column="23" lean-forward="true" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backup/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -430,10 +398,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/backup/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/backup/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="234" column="3" lean-forward="true" selection-start-line="234" selection-start-column="3" selection-end-line="234" selection-end-column="3" />
+        <state relative-caret-position="198">
+          <caret line="226" column="7" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="7" />
         </state>
       </provider>
     </entry>

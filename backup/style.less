@@ -49,16 +49,18 @@
     left: 0;
     z-index: 2;
     &:hover {
-      & #total {
-        height: 6px;
-      }
-      & #buffered {
-        height: 6px;
-      }
-      & #current {
-        height: 6px;
-        &:before {
-          opacity: 1;
+      & #progress {
+        & #total {
+          height: 6px;
+        }
+        & #buffered {
+          height: 6px;
+        }
+        & #current {
+          height: 6px;
+          &:before {
+            opacity: 1;
+          }
         }
       }
     }
@@ -193,19 +195,9 @@
       background-position-y: -216px;
     }
   }
-  #volume_custom_roller {
-    position: absolute;
-    left: 300px;
-    &:hover {
-      &~span#time {
-        left: 252px;
-        transition: left .5s;
-      }
-    }
-  }
   .volume_dynamic {
     &:hover {
-      &+#volume_custom_roller {
+      &+.video_volume {
         opacity: 1;
         transition: all .5s;
       }
@@ -222,12 +214,21 @@
   -webkit-appearance: none;
   width: 90px;
   position: absolute;
-  left: 110px;
+  left: 99px;
   bottom: 15px;
   margin: 0;
   z-index: 2;
   min-height: 10px;
   outline: none;
+  opacity: 0;
+  transition: left .5s, opacity .1s;
+  &:hover {
+    opacity: 1;
+    & ~ #time {
+      left: 252px;
+      transition: left .5s;
+    }
+  }
 
   /*Псевдо для WebKit*/
   &::-webkit-progress-value {
