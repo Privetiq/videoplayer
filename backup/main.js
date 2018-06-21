@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var controls = {
         video: $("#myvideo"),
-        allcontrols: $("#controls"),
+        allcontrols: $(".playpausevideo"),
         playpause: $("#playpause"),
         total: $("#total"),
         buffered: $("#buffered"),
@@ -19,7 +19,7 @@ $(document).ready(function(){
         controls.currentTime.text(formatTime(0),controls.hasHours);
     }, false);
 
-    controls.allcontrols.click(function(){
+    function playpausevideo() {
         if (video.paused) {
             video.play();
             controls.playpause.addClass("play");
@@ -29,7 +29,12 @@ $(document).ready(function(){
         }
 
         controls.playpause.toggleClass("paused");
-    });
+    }
+
+    controls.allcontrols.click(playpausevideo());
+
+    controls.playpause.click(playpausevideo());
+
 
     function formatTime(time, hours) {
         if (hours) {
@@ -82,11 +87,8 @@ $(document).ready(function(){
         }
 
         video.muted = !video.muted;
-
     });
-
-//---------------------------------------------------//
-    $('input[type=range]').on('input', function(e){
+    $('.video_volume').on('input', function(e){
         var min = e.target.min,
             max = e.target.max,
             val = e.target.value;
@@ -95,5 +97,4 @@ $(document).ready(function(){
             'backgroundSize': (val - min) * 100 / (max - min) + '% 100%'
         });
     }).trigger('input');
-
 });

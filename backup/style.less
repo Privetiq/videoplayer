@@ -8,6 +8,13 @@
   position: relative;
   display: inline-block;
 }
+.playpausevideo {
+  position: absolute;
+  width: 100%;
+  height: calc(~"100% - 60px");
+  top: 0;
+  left: 0;
+}
 #controls {
   position: absolute;
   height: 100%;
@@ -212,13 +219,17 @@
     width: 90px;
     position: absolute;
     left: 99px;
-    bottom: 15px;
+    bottom: 20px;
     margin: 0;
     z-index: 2;
-    min-height: 10px;
     outline: none;
     opacity: 0;
     transition: left .5s, opacity .1s;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bfbfbf), color-stop(100%, #c6c6c6));
+    background-image: -webkit-linear-gradient(#c9c9c9, #cccccc);
+    background-size: 90% 100%;
+    height: 3px;
+    background-repeat: no-repeat;
     &:hover{
       opacity: 1;
 
@@ -235,7 +246,6 @@
     &::-webkit-slider-runnable-track {
       box-shadow: none;
       border: none;
-      background: @color_2;
       height: 3px;
       -webkit-appearance: none;
     }

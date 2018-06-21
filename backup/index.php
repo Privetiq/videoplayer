@@ -36,6 +36,7 @@ $arResult = array('STATUS' => array('MP4' => '3.mp4'));
         </video>
 
         <div id="controls">
+            <div class="playpausevideo"></div>
             <span id="playpause" class="paused"></span>
             <span class="bottom_videoplayer_controls">
                 <span id="progress">
