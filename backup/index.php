@@ -1,22 +1,20 @@
 <?php
-
+//Less
 require "less.php";
 $inputFile = "style.less";
 $outputFile = "style.css";
 $less = new lessc;
-
+$less->setFormatter("compressed");
 // create a new cache object, and compile
 $cache = $less->cachedCompile($inputFile);
-
 file_put_contents($outputFile, $cache["compiled"]);
-
 // the next time we run, write only if it has updated
 $last_updated = $cache["updated"];
 $cache = $less->cachedCompile($cache);
 if ($cache["updated"] > $last_updated) {
     file_put_contents($outputFile, $cache["compiled"]);
 }
-
+//Test
 $arParams = array('WIDTH' => '1280', 'HEIGHT' => '720' );
 $arResult = array('STATUS' => array('MP4' => '3.mp4'));
 ?>
