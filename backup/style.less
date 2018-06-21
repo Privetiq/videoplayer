@@ -1,0 +1,259 @@
+@color_1: #fff;
+@color_2: #999;
+@color_3: transparent;
+@font_family_1: Geneva, Arial, Helvetica, sans-serif;
+@border_color_1: transparent;
+
+.video-frame {
+  position: relative;
+  display: inline-block;
+}
+#controls {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  span {
+    display: block;
+    position: absolute;
+  }
+  #playpause {
+    cursor: pointer;
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .5s;
+  }
+  .paused {
+    background: url("ico.png") 130px -2px;
+    &:hover {
+      background: url("ico.png") 130px -172px;
+    }
+  }
+  .play {
+    background: url("ico.png") 293px 0;
+    opacity: 0;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .bottom_videoplayer_controls {
+    width: 100%;
+    display: block;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    &:hover {
+      #progress {
+        #total {
+          height: 6px;
+        }
+        #buffered {
+          height: 6px;
+        }
+        #current {
+          height: 6px;
+          &:before {
+            opacity: 1;
+          }
+        }
+        bottom: 51px;
+      }
+    }
+  }
+  #progress {
+    width: calc(100% - 24px);
+    margin: 0 12px;
+    bottom: 50px;
+    left: 0;
+    height: 5px;
+    cursor: pointer;
+    #total {
+      width: 100%;
+      height: 4px;
+      background: #99999999;
+    }
+    #buffered {
+      height: 4px;
+      background: #cccccc;
+    }
+    #current {
+      background: #e61b20;
+      line-height: 0;
+      height: 4px;
+      width: 1px;
+      &:before {
+        display: block;
+        content: "";
+        opacity: 0;
+        height: 10px;
+        width: 10px;
+        background: #ce1013;
+        border-radius: 50%;
+        position: absolute;
+        right: -5px;
+        top: -2px;
+        cursor: pointer;
+      }
+    }
+  }
+  #time {
+    font-size: 16px;
+    top: calc(100% - 33px);
+    left: 168px;
+    position: relative;
+    width: 100px;
+    font-family: @font_family_1;
+    transition: left .5s;
+    color: @color_1;
+    span {
+      display: inline-block;
+    }
+    #currenttime {
+      left: -63px;
+      width: 60px;
+      text-align: right;
+    }
+    #duration {
+      color: @color_2;
+      left: 8px;
+    }
+  }
+  #volume_low {
+    background: url("ico.png") 517px -104px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 13px;
+    height: 25px;
+    width: 25px;
+    left: 75px;
+    &:hover {
+      background-position-y: -214px;
+    }
+  }
+  #volume_high {
+    background: url("ico.png") 1762px -104px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 13px;
+    height: 25px;
+    width: 25px;
+    left: 75px;
+    &:hover {
+      background-position-y: -214px;
+    }
+  }
+  #volume_mute {
+    background: url("ico.png") 622px -104px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 13px;
+    height: 25px;
+    width: 25px;
+    left: 75px;
+    &:hover {
+      background-position-y: -214px;
+    }
+  }
+  #miniplay {
+    background: url("ico.png") 1927px -104px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 13px;
+    height: 25px;
+    width: 25px;
+    left: 25px;
+    &:hover {
+      background-position-y: -214px;
+    }
+  }
+  #ministop {
+    background: url("ico.png") 1832px -104px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    height: 25px;
+    width: 25px;
+    left: 15px;
+    &:hover {
+      background-position-y: -214px;
+    }
+  }
+  #fullscreen {
+    background: url("ico.png") 1415px -106px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 13px;
+    height: 25px;
+    width: 25px;
+    right: 25px;
+    &:hover {
+      background-position-y: -216px;
+    }
+  }
+  #volume_custom_roller {
+    position: absolute;
+    left: 300px;
+    &:hover {
+      &~span#time {
+        left: 252px;
+        transition: left .5s;
+      }
+    }
+  }
+  .volume_dynamic {
+    &:hover {
+      &+#volume_custom_roller {
+        opacity: 1;
+        transition: all .5s;
+      }
+      &~span#time {
+        left: 252px;
+        transition: left .5s;
+      }
+    }
+  }
+}
+input[type=range]#volume_custom_roller {
+  width: 100px;
+  height: 13px;
+  &:focus {
+    outline: none;
+    height: 13px;
+  }
+  &::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    background: transparent;
+    border-color: @border_color_1;
+    color: @color_3;
+  }
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+    margin-top: -1px;
+  }
+  &::-moz-range-thumb {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  &::-ms-thumb {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    cursor: pointer;
+  }
+}

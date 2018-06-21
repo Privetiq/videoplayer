@@ -8,6 +8,7 @@ $(document).ready(function(){
         progress: $("#current"),
         duration: $("#duration"),
         currentTime: $("#currenttime"),
+        dynamic: $("#volume_high"),
         hasHours: false
     };
     var video = controls.video[0];
@@ -73,17 +74,15 @@ $(document).ready(function(){
     }, false);
 
     controls.dynamic.click(function() {
-        var classes = this.getAttribute("class");
 
-        if (new RegExp('\\boff\\b').test(classes)) {
-            classes = classes.replace(" off", "");
+        if (video.muted) {
+            controls.dynamic.addClass("muted");
         } else {
-            classes = classes + " off";
+            controls.dynamic.removeClass("muted");
         }
 
-        this.setAttribute("class", classes);
-
         video.muted = !video.muted;
+
     });
 
 });

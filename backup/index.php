@@ -1,4 +1,22 @@
 <?php
+
+require "less.php";
+$inputFile = "style.less";
+$outputFile = "style.css";
+$less = new lessc;
+
+// create a new cache object, and compile
+$cache = $less->cachedCompile($inputFile);
+
+file_put_contents($outputFile, $cache["compiled"]);
+
+// the next time we run, write only if it has updated
+$last_updated = $cache["updated"];
+$cache = $less->cachedCompile($cache);
+if ($cache["updated"] > $last_updated) {
+    file_put_contents($outputFile, $cache["compiled"]);
+}
+
 $arParams = array('WIDTH' => '1280', 'HEIGHT' => '720' );
 $arResult = array('STATUS' => array('MP4' => '3.mp4'));
 ?>
@@ -30,7 +48,7 @@ $arResult = array('STATUS' => array('MP4' => '3.mp4'));
                     </span>
                 </span>
                 <span id="volume_high" class="volume_dynamic"></span>
-                <input id="volume_custom_roller" type="range" min="0" max="100" value="80" step="1" >
+
                 <span id="volume_roller"></span>
                 <span id="time">
                     <span id="currenttime">00:00</span> /
