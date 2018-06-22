@@ -110,11 +110,11 @@ $(document).ready(function(){
     }, false);
 
     controls.dynamic.click(function() {
-        var cachedval;
+        var cachedval = 0;
         if (video.muted) {
             controls.dynamic.addClass("muted");
             cachedval = controls.videovolume.val();
-            controls.videovolume.val("0");
+            controls.videovolume.val(0);
         } else {
             controls.dynamic.removeClass("muted");
             controls.videovolume.val(cachedval);
@@ -127,8 +127,10 @@ $(document).ready(function(){
             max = e.target.max,
             val = e.target.value;
 
+        video.volume = controls.videovolume.val();
+
         $(e.target).css({
-            'backgroundSize': (val - min) * 100 / (max - min) + '% 100%'
+            'backgroundSize': (val - min) * 100 / (max - min) + '% 3px'
         });
     }).trigger('input');
 });
