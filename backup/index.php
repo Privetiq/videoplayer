@@ -14,7 +14,7 @@ $cache = $less->cachedCompile($cache);
 if ($cache["updated"] > $last_updated) {
     file_put_contents($outputFile, $cache["compiled"]);
 }
-//Test
+//Test data
 $arParams = array('WIDTH' => '1280', 'HEIGHT' => '720' );
 $arResult = array('STATUS' => array('MP4' => '3.mp4'));
 ?>

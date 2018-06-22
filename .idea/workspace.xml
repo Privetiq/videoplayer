@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c43f2f9f-616e-49c3-81e3-74598e6a8e42" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/test/2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/less.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/video.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/backup/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/backup/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/backup/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backup/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backup/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/test/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,32 +21,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49387372">
+    <splitter split-orientation="horizontal" split-proportion="0.5676856">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/backup/index.php">
+          <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/main.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+                <state relative-caret-position="456">
+                  <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="337">
+                  <caret line="36" column="129" selection-start-line="36" selection-start-column="129" selection-end-line="36" selection-end-column="129" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/backup/main.js">
+            <entry file="file://$PROJECT_DIR$/test/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="132" column="70" selection-start-line="132" selection-start-column="70" selection-end-line="132" selection-end-column="70" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/index.php">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+                <state relative-caret-position="28033">
+                  <caret line="1387" column="25" lean-forward="true" selection-start-line="1387" selection-start-column="25" selection-end-line="1387" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#448#6061#1" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -54,8 +70,8 @@
           <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/backup/style.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="229" column="28" selection-start-line="229" selection-start-column="28" selection-end-line="229" selection-end-column="28" />
+                <state relative-caret-position="221">
+                  <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -67,6 +83,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="Less File" />
         <option value="JavaScript File" />
       </list>
@@ -109,10 +126,15 @@
         <option value="$PROJECT_DIR$/test2/jquery-ui-1.8.2.custom.min.js" />
         <option value="$PROJECT_DIR$/test2/jq.js" />
         <option value="$PROJECT_DIR$/test2/index.html" />
-        <option value="$PROJECT_DIR$/backup/index.php" />
         <option value="$PROJECT_DIR$/backup/style.less" />
         <option value="$PROJECT_DIR$/backup/main.js" />
+        <option value="$PROJECT_DIR$/test/style.less" />
+        <option value="$PROJECT_DIR$/test/style.css" />
+        <option value="$PROJECT_DIR$/backup/index.php" />
+        <option value="$PROJECT_DIR$/test/video.js" />
         <option value="$PROJECT_DIR$/test/index.php" />
+        <option value="$PROJECT_DIR$/test/main.js" />
+        <option value="$PROJECT_DIR$/test/main.less" />
       </list>
     </option>
   </component>
@@ -161,6 +183,12 @@
               <item name="localhost" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="localhost" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main.less" type="620a8d5e:NestingTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -169,7 +197,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../telekritika" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -214,18 +242,18 @@
       <workItem from="1529398277424" duration="17675000" />
       <workItem from="1529486051824" duration="16294000" />
       <workItem from="1529568210084" duration="24544000" />
-      <workItem from="1529651120776" duration="5691000" />
+      <workItem from="1529651120776" duration="14796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74714000" />
+    <option name="totallyTimeSpent" value="83819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19680852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12993921" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -257,6 +285,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -278,6 +309,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -299,6 +333,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" column="35" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -320,6 +357,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -386,17 +426,36 @@
     <entry file="file://$PROJECT_DIR$/test2/jq.js" />
     <entry file="file://$PROJECT_DIR$/test2/jquery.ghindaVideoPlayer.js" />
     <entry file="file://$PROJECT_DIR$/test2/index.html" />
-    <entry file="file://$PROJECT_DIR$/backup/index.php">
+    <entry file="file://$PROJECT_DIR$/test/less.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="250">
+          <caret line="1927" column="21" lean-forward="true" selection-start-line="1927" selection-start-column="21" selection-end-line="1927" selection-end-column="21" />
+          <folding>
+            <element signature="e#774#6387#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backup/style.less">
+    <entry file="file://$PROJECT_DIR$/test/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="229" column="28" selection-start-line="229" selection-start-column="28" selection-end-line="229" selection-end-column="28" />
+        <state relative-caret-position="28033">
+          <caret line="1387" column="25" lean-forward="true" selection-start-line="1387" selection-start-column="25" selection-end-line="1387" selection-end-column="25" />
+          <folding>
+            <element signature="e#448#6061#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -407,10 +466,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="34963" column="100" lean-forward="true" selection-start-line="34963" selection-start-column="100" selection-end-line="34963" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="337">
+          <caret line="36" column="129" selection-start-line="36" selection-start-column="129" selection-end-line="36" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
         </state>
       </provider>
     </entry>
