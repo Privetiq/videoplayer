@@ -9,6 +9,10 @@ $(document).ready(function(){
         duration: $("#duration"),
         currentTime: $("#currenttime"),
         dynamic: $("#volume_high"),
+        miniplay: $("#miniplay"),
+        videovolume: $(".video_volume"),
+        fullscreenButton: $("#fullscreen"),
+        videoframe: $(".video-frame"),
         hasHours: false
     };
     var video = controls.video[0];
@@ -19,21 +23,48 @@ $(document).ready(function(){
         controls.currentTime.text(formatTime(0),controls.hasHours);
     }, false);
 
+    controls.fullscreenButton.click(function () {
+        var fullscr = controls.videoframe[0];
+        if (fullscr.requestFullscreen) {
+            video.style.height = '100%';
+            video.style.width = '100%';
+            fullscr.requestFullscreen();
+        } else if (fullscr.mozRequestFullScreen) {
+            video.style.height = '100%';
+            video.style.width = '100%';
+            fullscr.mozRequestFullScreen();
+        } else if (fullscr.webkitRequestFullscreen) {
+            video.style.height = '100%';
+            video.style.width = '100%';
+            fullscr.webkitRequestFullscreen();
+        }
+    });
+
     function playpausevideo() {
         if (video.paused) {
             video.play();
             controls.playpause.addClass("play");
+            controls.miniplay.addClass("ministop");
         } else {
             video.pause();
             controls.playpause.removeClass("play");
+            controls.miniplay.removeClass("ministop");
         }
 
         controls.playpause.toggleClass("paused");
     }
 
-    controls.allcontrols.click(playpausevideo());
+    controls.allcontrols.click(function () {
+        playpausevideo();
+    });
 
-    controls.playpause.click(playpausevideo());
+    controls.playpause.click(function () {
+        playpausevideo();
+    });
+
+    controls.miniplay.click(function () {
+        playpausevideo();
+    });
 
 
     function formatTime(time, hours) {
@@ -79,16 +110,19 @@ $(document).ready(function(){
     }, false);
 
     controls.dynamic.click(function() {
-
+        var cachedval;
         if (video.muted) {
             controls.dynamic.addClass("muted");
+            cachedval = controls.videovolume.val();
+            controls.videovolume.val("0");
         } else {
             controls.dynamic.removeClass("muted");
+            controls.videovolume.val(cachedval);
         }
 
         video.muted = !video.muted;
     });
-    $('.video_volume').on('input', function(e){
+    controls.videovolume.on('input', function(e){
         var min = e.target.min,
             max = e.target.max,
             val = e.target.value;
